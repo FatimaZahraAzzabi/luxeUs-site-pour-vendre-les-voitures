@@ -1,0 +1,126 @@
+    /* Style pour centrer l'image et le contenu */
+    body{
+      margin: 0px;
+      padding: 0px;
+      background-image: url("https://i.pinimg.com/564x/31/96/f4/3196f4ce970ba35d42e55a310ef6a9bc.jpg");
+      background-repeat: no-repeat;
+      background-color: #808b96;
+      background-size: 52.5%;
+      background-position: right;}
+
+    .container {
+      display: flex;
+      width: 100%;}
+     h2{
+      text-align: center;}
+
+    /* Style pour l'image */
+    .adjust .image {
+      width: 420px;
+      height:620px;
+      margin-left: 0px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px; }
+   
+    /* Style pour le texte à droite de l'image */
+    .texte {
+      margin-left: 5%;
+      margin-top: 5%;
+      background-color:  }
+    .box{
+  position: relative;
+  width: 800px;
+  height: 620px;
+  border: 5px solid rgba(255,255,255,0.5);
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #808b96;
+  border-radius: 20px;
+  margin-left: 16.5%;
+  margin-top:4%;
+  background-size: cover;}
+   p {
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  color:#888370;
+  font-size: 1.5em;}
+
+   input{
+  background: transparent;
+  border: none;
+  width:  80%;
+  height:30px;
+  font-size: 1em;
+  padding:0 35px 0 5px;}
+
+
+button{
+ width: 89%;
+ height: 35px;
+ border-radius: 40px;
+ background:transparent;
+ cursor: pointer;
+ font-size: 1em;
+ font-weight: 600;
+}
+
+select{
+background: transparent;
+  border: none;
+}
+.color {
+  color:  #C8BB99;
+font-size: 2em;}
+
+
+.logo{
+color:#fff;
+font-size: 35px;
+/*font-family: Arial;*/
+padding-left: 30px;
+float:left;
+padding-top: 10px;  
+}
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  height: 60px;
+  z-index: 1;
+ 
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+  margin-left: 15%;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #555;
+}
+
+	

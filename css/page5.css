@@ -1,0 +1,74 @@
+   
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	font-family:'Poppins';
+}
+
+h3{
+	font-size: 30px;
+	text-align: center;
+	color: darkred;
+	background: black;
+
+}
+.bn{
+	
+}
+
+
+h4{
+	font-size: 20px;
+/*	text-align: center;*/
+	color: darkred;
+	
+}
+table{
+	width:100%;
+  border-collapse:collapse;
+  margin: 25px 0;
+  padding:5px;
+  font-size:0.9em;
+  font-family:sans-serif;
+  box-shadow: 0 0 20px;
+}
+td,th{
+  padding:10px;
+  text-align:center;
+}
+
+ td {
+  padding: 25px;
+
+}
+th{
+	background: black;
+	color: white;
+}
+th{
+	padding: 30px;
+}
+thead{
+	padding:30px;
+}
+thead tr{
+border-botton:1px solid #dddddd;
+}
+thead tr{
+	background-color:#009879;
+	color:#ffffff;
+}
+
+tbody tr.active-row{
+	font-weight: bold;
+	color:#009879;
+}
+tbody tr:nth-of-type(even){
+	background-color:#f3f3f3;
+}
+.par{
+	font-size:30px;
+	text-align:center;
+	background-color:gray;
+}

@@ -1,0 +1,182 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'poppins',sans-serif;
+}
+
+section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	width: 100%;
+ 
+}
+section video{
+	z-index:000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+body{
+background: url("https://images.freecreatives.com/wp-content/uploads/2016/02/High-Res-Blue-Textures-Collections.jpg")no-repeat;
+
+    background-position: center;
+    background-size: cover;
+    
+}
+/*div.sticky{
+	position: -webkit-sticky;
+    position:sticky;
+    top:0;
+    background:transparent;
+    padding: 20px;
+    font-size: 20px; 
+}*/
+	
+.form-box{
+	position: relative;
+	width: 400px;
+	height: 450px;
+	border: 2px solid rgba(255,255,255,0.5);
+	backdrop-filter: blur(15px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #8F3A84; 
+	border-radius: 20px;
+	background: transparent;
+}
+h1{
+text-align: center;
+font-size: 2em;
+color: #fff;	
+}
+.inputbox{
+position:relative;
+margin:30px 0;
+width: 310px;
+border-bottom: 2px solid;
+color: #fff;
+}
+.inputbox label{
+	position: absolute;
+	top:50%;
+	left:5px;
+	transform: translateY(-50%);
+	font-size: 1em;
+	pointer-events: none;
+	transition: .5s;
+	color: #fff;
+}
+.mpd label{
+	position: absolute;
+	top:50%;
+	left:5px;
+	transform: translateY(-50%);
+	font-size: 1em;
+	pointer-events: none;
+	transition: .5s;
+	color: #fff;
+}
+input:focus ~ label,
+input:valid ~ label{
+	top:-5px;
+}
+.inputbox input{
+	width:	100%;
+	height:50px;
+	background: transparent;
+	font-size: 1em;
+	border: none;
+	outline: none;
+	padding:0 35px 0 5px;
+	
+}
+.inputbox ion-icon{
+	position: absolute;
+	right: 8px;
+	font-size: 1.2em;
+	top:20px;
+	color: #fff;
+}
+
+.mpd input{
+	width:	100%;
+	height:50px;
+	background: transparent;
+	font-size: 1em;
+	border: none;
+	outline: none;
+	padding:0 35px 0 5px;
+	
+}
+.mpd ion-icon{
+	position: absolute;
+	right: 8px;
+	font-size: 1.2em;
+	top:20px;
+	color: #fff;
+}
+.forget{
+	color: #fff;
+	font-size: .9em;
+    margin: -15px 0 15px; 
+    display:flex;
+    justify-content: center; 
+}
+.forget a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+}
+.forget a:hover{
+	text-decoration: underline;
+}
+
+.register{
+	color: #fff;
+	margin-top: 20px;
+	display:flex;
+	font-size: .9em;
+	justify-content: center; 
+}
+.register a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+}
+.register a:hover{
+	text-decoration: underline;
+}
+button{
+ width: 100%; 
+ height: 35px;
+ border-radius: 40px;
+ background-color: #fff;
+ border: none;
+ outline: none;
+ cursor: pointer;
+ font-size: 1em;
+ font-weight: 600;
+}
+
+	.big{
+	display: flex;
+	margin-bottom: 5px;
+	margin-top: -20px;
+	margin-left: 0px;
+	align-items:center;
+	text-align: center;
+	line-height: 50px;
+	display: flex;
+	margin-top:.9px; 
+	justify-content: center;
+}
+.bigg{
+	position: absolute;
+}
